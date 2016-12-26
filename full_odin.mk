@@ -19,11 +19,6 @@
 # product configuration (apps). Except for a few implementation
 # details, it only fundamentally contains two inherit-product
 # lines, full and maguro, hence its name.
-#
-#
-
-TARGET_SCREEN_HEIGHT := 1920
-TARGET_SCREEN_WIDTH := 1080
 
 # Inherit from those products. Most specific first.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
