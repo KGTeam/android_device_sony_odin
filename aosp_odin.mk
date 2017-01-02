@@ -1,5 +1,9 @@
 $(call inherit-product, device/sony/odin/full_odin.mk)
 
+TARGET_BOOTANIMATION_HALF_RES := true
+TARGET_SCREEN_HEIGHT := 1920
+TARGET_SCREEN_WIDTH := 1080
+
 # Inherit AOSP common Phone stuff.
 $(call inherit-product, vendor/aosp/common.mk)
 
